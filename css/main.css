@@ -4,13 +4,97 @@
     box-sizing: border-box;
 }
 body {
+    background-color: #F2F2F2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 main {
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     margin-top: 30px;
+    background-color: #fff;
+
 }
 
+main > img {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+main > div {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+main > div > h1 {
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 25px;
+    color: #665C5D;
+    margin-bottom: 20px;
+}
+
+div > input {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-left: none;
+    box-shadow: 2px 2px 5px #aaaaaa;
+    margin-bottom: 15px;
+}
+
+div > input:first-of-type {
+    border-left: 1px solid #dadada;
+}
+
+div > input::placeholder {
+    font-size: 14px;
+    color: #afafaf;
+}
+
+div > button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: #00AD5E;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+div > p {
+    display:inline-block;
+    width: 100%;
+    color: #afafaf;
+    font-size: 12px;
+}
+
+div > p > a {
+    text-decoration: none;
+    color: #00AD5E;
+}
+
+div > a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #00AD5E;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 195px;
+}

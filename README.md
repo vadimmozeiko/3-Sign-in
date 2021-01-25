@@ -16,6 +16,7 @@ Design: [Sign in](https://github.com/vadimmozeiko/3-Sign-in/blob/master/Sign%20i
 -   input forms
 -   buttons
 -   float with different widths
+-   box-shadow effect
 
 ## Authors
 
